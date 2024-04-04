@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: rgb(69, 161, 231);
+}
+.div__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0px 10px;
+    padding-top: 20px;
+}
+.div__header-button {
+    background: rgb(69, 161, 231);
+    border: none;
+    font-size: 20px;
+}
+
+.fa-solid:hover  {
+    color: rgb(218, 55, 55);
+    transition: 0.5s;
+    
+}
+.div__header label{
+    width: 70%; 
+}
+#input {
+    width: 70%; 
+    color: rgb(4, 122, 248);
+    font-size: 18px;
+    
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.col {
+    width: 30%;
+    text-align: center;
+    background: rgb(4, 122, 248);
+    
+}
+.col__col-text {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.div__to-do,
+.div__done,
+.div__in-progress {
+    padding: 0 20px;
+}
+.div__to-do-task {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background: rgb(69, 161, 231);   
+    border: 2px solid rgb(6, 114, 196);
+    margin-bottom: 10px; 
+    
+    
+    
+}
+.div__task-text {
+    flex-basis: 60%;
+    margin-top: 10px;
+    text-align: start;
+}
+.div__progress-btn{
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-radius: 6px;
+    color: rgb(69, 161, 231);
+    display: block;
+    font-size: 15px;
+    width: 85%;
+    margin-left: 10px;
+    
+}
+.div__progress-btn:hover{
+    background: rgb(218, 55, 55);
+    transition: 0.5s;
+}
+
+.div__close-btn {
+    border: none;
+    font-size: 17px;
+    background: rgb(69, 161, 231);
+}
+.div__close-btn:hover{
+    color: rgb(218, 55, 55);
+    transition: 0.5s;
+}
